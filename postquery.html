@@ -1,0 +1,37 @@
+<!-- HTML code -->
+<html>
+<head>
+  <title>Citizen Query Platform</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="postquery.css">
+    
+  </head>
+<body>
+  <h1>Citizen Query Platform</h1>
+  <p>Post your query to your representative and get a response.</p>
+  <!-- Form for the user input -->
+  <form id="query-form">
+    <label for="name">Your name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Your email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="query">Your query:</label>
+    <textarea id="query" name="query" rows="5" cols="40" required></textarea>
+    <label for="representative">Choose your representative:</label>
+    <select id="representative" name="representative" required>
+      <option value="">Select one</option>
+      <option value="regional">Regional Council</option>
+      <option value="district">District Council</option>
+      <option value="parliamentarian">Parliamentarian</option>
+    </select>
+    <button type="submit" id="submit-button">Submit</button>
+  </form>
+  <!-- Display area for the query and response -->
+  <div id="display-area">
+    <h2>Query and Response</h2>
+    <p id="query-display"></p>
+    <p id="response-display"></p>
+  </div>
+  <script src="postquery.js"></script>
+</body>
+</html>

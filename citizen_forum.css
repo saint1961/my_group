@@ -1,0 +1,99 @@
+a{
+    text-decoration: none; 
+    text-decoration-style: wavy;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+div{
+    text-align: center;
+    box-sizing: inherit;
+    padding-top: 50px;
+}
+body{
+   background-image: url(forumpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+div button{
+    line-height: 50px;
+    width: 200px;
+   margin: 10px;
+    background-color: gold;
+    border-radius: 10px;
+
+}
+.account{
+    font-family: serif;
+    color: gold;
+  
+}
+/*div .homepage{
+    float: left;
+    overflow: hidden;
+    display: block;
+    
+   
+    
+}
+li{
+    list-style: none;
+    overflow: hidden;
+    float: left;
+    text-decoration: none;
+    padding: 15px;
+    align-content: center;
+   
+}
+nav{
+    display: block;
+    overflow: hidden;
+    background-color: azure;
+    height: 100px;
+}
+ul li a:hover{
+    background-color: blue;
+}*/
+
+/*##############NAVIGATION BAR START################*/
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px;
+    display: block;
+    color:black;
+    font-size: 12px;
+    
+    
+}
+nav.navbar
+{
+    width: 100%;
+    margin: 0;
+    
+}
+nav ul{
+background-color: gold;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+ul li.leftnav{
+    float: left;
+}
+
+ul.navbar li.rightnav{
+    float: right;
+}
+
+nav ul li a:hover{
+    background-color: blue;
+    
+}
+
+/*################NAVIGATION BAR-END###################*/

@@ -1,0 +1,81 @@
+
+
+form {
+			margin: 150px auto;
+			width: 50%;
+			padding: 20px;
+			border: 1px solid blue;
+			background-color: lightblue;
+			border-radius: 5px;
+		}
+body{
+    background-image: url(forumpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+       
+      input[type=password],input[type=email] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		input[type=submit] {
+			width: 100%;
+			background-color: green;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+            
+		}
+		input[type=submit]:hover {
+			background-color:blue;
+}
+
+/*##############NAVIGATION BAR START################*/
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px;
+    display: block;
+    color:black;
+    font-size: 12px;
+    
+    
+}
+nav.navbar
+{
+    width: 100%;
+    margin: 0;
+    
+}
+nav ul{
+background-color: gold;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+ul li.leftnav{
+    float: left;
+}
+
+ul.navbar li.rightnav{
+    float: right;
+}
+
+nav ul li a:hover{
+    background-color: blue;
+    
+}
+
+/*################NAVIGATION BAR-END###################*/

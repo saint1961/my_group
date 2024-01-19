@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forum Registration</title>
+    <link type="text/css" rel="stylesheet" href="forum_form.css">
+  
+    </head>
+    
+    <body>
+       
+     
+        
+        <form id="form">
+        <h4>REGISTER HERE!!</h4>
+            <div>
+            
+            <label for="Full_name">Full Name</label>
+            <input type="text" name="fullname" placeholder="Enter yout full name" class="fname" id="name">
+            <span id="name_error" style="color: red"></span>
+            </div>
+            
+            <div>
+             <label for="Email">Email</label>
+            <input type="text" name="email" placeholder="Enter your email" class="mail" id="email">
+           <span id="email_error" style="color: red;"></span>
+            </div>    
+            
+            <div>
+            <label for="Password">Password</label>
+            <input type="password" name="password" placeholder="Enter login password" class="passcode" id="password">
+            <span id="password_error" style="color: red"></span>
+            </div>
+            <div>
+            <label for="register_as">Register as:</label>
+		<select name="register _as" class="dropdown" id="position">
+            <option>Select your position</option>
+			<option value="citizen">CITIZEN</option>
+			<option value="resident_council">RESIDENT COUNCIL(RC)</option>
+            <option value="district_council">DISRICT COUNCIL(DC)</option>
+            <option value="parliamentarian">PARLIAMENTARIAN</option>
+		</select>
+                <span id="position_error" style="color: red"></span>
+            </div>
+            <input type="submit" value="REGISTER" class="submitbutton">
+        
+        </form>
+       
+        <div>
+            <pre>
+            <p>Already have an account?
+    Go back to homepage and login.</p>
+                </pre>
+       <button><a href="citizen_forum.html">Back to Homepage</a></button>
+        </div>
+        <script src="register-form-validation.js"></script>
+    </body>
+</html>
